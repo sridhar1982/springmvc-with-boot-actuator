@@ -1,0 +1,11 @@
+.project
+.settings
+.classpath
+*/target/*
+/target/*
+/Reports*
+*.log
+*.bak
+bin/*
+.DS_Store
+git-completion.bash
