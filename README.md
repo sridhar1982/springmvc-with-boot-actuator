@@ -19,7 +19,7 @@ steps:
 `http://localhost:8090/MyController/data/metrics`
 
 Now change the spring-boot-actuator dependency in pom.xml
-```<version>1.2.5.RELEASE</version>```
+`<version>1.2.5.RELEASE</version>`
 
 run mvn clean install t7:run
 
