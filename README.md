@@ -8,7 +8,7 @@ steps:
 
 1. clone the git project
 
-2. Run mvn clean install t7:run
+2. Run `mvn clean install t7:run`
 
 3. visit the following urls to ensure it works
 
@@ -19,9 +19,10 @@ steps:
 `http://localhost:8090/MyController/data/metrics`
 
 Now change the spring-boot-actuator dependency in pom.xml
+
 `<version>1.2.5.RELEASE</version>`
 
-run mvn clean install t7:run
+run `mvn clean install t7:run`
 
 The errors will thrown during container start-up.
 
