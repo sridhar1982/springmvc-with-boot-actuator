@@ -4,7 +4,7 @@ springmvc application with spring-boot-actuator. NOT a spring-boot-application
 This is a simple SpringMVC REST application. I added spring-boot-actuator depedency to get metrics and health and 
 expose a new endpoint that gives status information.
 
-steps:
+**steps**
 
 1. clone the git project
 
@@ -26,9 +26,9 @@ run `mvn clean install t7:run`
 
 The errors will thrown during container start-up.
 
-NOTE: I do NOT have `@EnableAutoConfiguration` because I observed autoconfiguration is interferring with REAL springMVC application.
+**NOTE:** I do NOT have `@EnableAutoConfiguration` because I observed autoconfiguration is interferring with REAL springMVC application.
 
-UPDATE:
+**UPDATE**
 
 I want to use `spring-boot-actuator1.2.5` over `1.1.1` only because 1.2.* returns `DiskSpace` info over `/health endpoint`.
 
