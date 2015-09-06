@@ -18,3 +18,13 @@ steps:
 
 `http://localhost:8090/MyController/data/metrics`
 
+Now change the spring-boot-actuator dependency in pom.xml
+```<version>1.2.5.RELEASE</version>```
+
+run mvn clean install t7:run
+
+The errors will thrown during container start-up.
+
+NOTE: I do NOT have `@EnableAutoConfiguration` because I observed autoconfiguration is interferring with REAL springMVC application.
+
+
